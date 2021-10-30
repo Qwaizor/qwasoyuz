@@ -4,7 +4,7 @@ const { Routes } = require('discord-api-types/v9');
 const fs = require('fs');
 // Place your client and guild ids here
 const clientId = '699676503029448744';
-const guildId = '706290507080269895';
+
 
 module.exports = (client) => {
     client.handleCommands = async (commandFolders, path) => {
@@ -30,9 +30,9 @@ module.exports = (client) => {
                 console.log('Started refreshing application (/) commands.');
 
                 await rest.put(
-                    Routes.applicationGuildCommands(clientId, guildId),
-                    { body: client.commandArray},
-                );
+                    Routes.applicationCommands(clientId),
+                    { body: client.commandArray },
+                  );
 
                 console.log('Successfully reloaded application (/) commands.');
             } catch (error) {
