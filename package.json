@@ -1,0 +1,21 @@
+{
+  "name": "qwaizorv13",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bot.js",
+  "scripts": {
+    "test": "node src/bot.js"
+  },
+  "author": "qwaizor",
+  "license": "ISC",
+  "dependencies": {
+    "@discordjs/builders": "^0.7.0",
+    "@discordjs/rest": "0.1.0-canary.0",
+    "discord-api-types": "^0.24.0",
+    "discord.js": "^13.1.0",
+    "dotenv": "^10.0.0",
+    "env": "0.0.2",
+    "mongoose": "^5.11.14",
+    "node": "^16.6.1"
+  }
+}
