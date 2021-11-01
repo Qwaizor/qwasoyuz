@@ -98,11 +98,8 @@ module.exports = {
                 .setAuthor("Qwasoyuz", client.user.displayAvatarURL())
                 .addFields(
                     { name: `Founded:`, value: `On  30/12/1922`, inline: true },
-                    { name: `\u200B`, value: `\u200B`, inline: true },
                     { name: `Population:`, value: `293,047,571`, inline: true },
-                    { name: `\u200B`, value: `\u200B`, inline: true },
                     { name: `GDP:`, value: `2.6 trillion`,inline: true},
-                   
                     { name: `Land Area`, value: `22,400,000 km²`,inline: true},
                 )
                 .setTimestamp('26/12/1991')

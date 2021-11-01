@@ -1,10 +1,10 @@
 {
-  "name": "qwasoyuz",
+  "name": "qwaizorv13",
   "version": "1.0.0",
   "description": "",
   "main": "bot.js",
   "scripts": {
-    "start": "node src/bot.js"
+    "test": "node src/bot.js"
   },
   "author": "qwaizor",
   "license": "ISC",
